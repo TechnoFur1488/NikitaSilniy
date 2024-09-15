@@ -24,3 +24,8 @@ export const ContainerInformation = styled.div `
     margin: 0 auto;
     padding: 150px 0;
 `
+export const ContainerImgText = styled.div `
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 5%;
+`
