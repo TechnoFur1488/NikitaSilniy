@@ -4,6 +4,8 @@ import Header from './components/componentBricks/header';
 import GlobalStyle from './components/componentsStyle/globalStyles/globalStyle.jsx';
 import SliderSection from './components/componentBricks/sliderSection';
 import InformationSection from './components/componentBricks/informationSection.jsx'
+import NewsSection from './components/componentBricks/newsSection.jsx';
+
 
 function App() {
     return (
@@ -11,6 +13,7 @@ function App() {
             <GlobalStyle />
             <Header />
             <SliderSection />
+            <NewsSection />
             <InformationSection />
         </>
     )

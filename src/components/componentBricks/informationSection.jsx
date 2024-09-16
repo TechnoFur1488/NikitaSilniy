@@ -1,12 +1,9 @@
 import { DivLine, 
     FirstInformationDivText, FirstInformationDivTextP, FirstInformationDivTextH2 , FirstInformation, 
     SecondInformationDivText, SecondInformationDivTextP, SecondInformationDivTextH2, SecondInformation,
-    SectionImg,
-    SectionImgColor,
-    SectionImgH1,
-    SectionImgP
+    SectionImg, SectionImgColor, SectionImgH1, SectionImgP
 } from "../componentsStyle/global/informationStyles/informationStyle"
-import { Container, ContainerImgText, ContainerInformation } from "../componentsStyle/globalStyles/containers"
+import { ContainerImgText, ContainerInformation } from "../componentsStyle/globalStyles/containers"
 import { ImgInformationFirst, ImgInformationSecond } from "../componentsImages/imagesInformation"
 
 const InformationSection = () => {
