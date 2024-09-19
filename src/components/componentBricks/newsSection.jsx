@@ -1,5 +1,5 @@
 import { ZakladaImg } from "../componentsImages/imagesNews"
-import { FirstNews, FirstNewsBack, NewsArticle, NewsDivflex } from "../componentsStyle/global/newsStyles/newsStyle"
+import { FirstNews, FirstNewsBack, NewsArticle, NewsArticleSecond, NewsArticleSpan, NewsArticleThird, NewsDivflex, NewsDivflexSecond, NewsDivflexThird, SecondNews, SecondNewsBack, ThirdNews, ThirdNewsBack } from "../componentsStyle/global/newsStyles/newsStyle"
 import { Container } from "../componentsStyle/globalStyles/containers"
 
 const NewsSection = () => {
@@ -12,30 +12,38 @@ const NewsSection = () => {
                         <FirstNewsBack>
                             <NewsArticle>
                                 <ZakladaImg />
-                                <span>ARTICLE</span>
+                                <NewsArticleSpan>ARTICLE</NewsArticleSpan>
                             </NewsArticle>
-                            <h2>Экипаж NASA «Артемида II» использует местность Исландии для Лунных тренировок</h2>
+                            <p>Экипаж NASA «Артемида II» использует местность Исландии для Лунных тренировок</p>
                         </FirstNewsBack>
                     </FirstNews>
-                    <div>
-                        <div>
-                            <ZakladaImg />
-                            <span>ARTICLE</span>
-                            <h2>Hubble - исследует спиральную звездную фабрику</h2>
-                        </div>
-                        <div>
+                    <NewsDivflexSecond>
+                        <SecondNews>
+                            <SecondNewsBack>
+                                <NewsArticleSecond>
+                                    <ZakladaImg />
+                                    <NewsArticleSpan>ARTICLE</NewsArticleSpan>
+                                </NewsArticleSecond>
+                                <p>Hubble - исследует спиральную звездную фабрику</p>
+                            </SecondNewsBack>
+                        </SecondNews>
+                        <NewsDivflexThird>
+                            <ThirdNews>
+                                <ThirdNewsBack>
+                                    <NewsArticleThird>
+                                        <ZakladaImg />
+                                        <NewsArticleSpan>ARTICLE</NewsArticleSpan>
+                                    </NewsArticleThird>
+                                    <p>NASA считает лето 2024 года самым жарким на сегодняшний день</p>
+                                </ThirdNewsBack>
+                            </ThirdNews>
                             <div>
                                 <ZakladaImg />
                                 <span>ARTICLE</span>
-                                <h2>NASA считает лето 2024 года самым жарким на сегодняшний день</h2>
+                                <p>NASA и SpaceX отправят экипаж-9 в космос</p>
                             </div>
-                            <div>
-                                <ZakladaImg />
-                                <span>ARTICLE</span>
-                                <h2>NASA и SpaceX отправят экипаж-9 в космос</h2>
-                            </div>
-                        </div>
-                    </div>
+                        </NewsDivflexThird>
+                    </NewsDivflexSecond>
                 </NewsDivflex>
             </Container>
         </>
