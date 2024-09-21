@@ -1,5 +1,5 @@
 import { ZakladaImg } from "../componentsImages/imagesNews"
-import { FirstNews, FirstNewsBack, NewsArticle, NewsArticleSecond, NewsArticleSpan, NewsArticleThird, NewsDivflex, NewsDivflexSecond, NewsDivflexThird, SecondNews, SecondNewsBack, ThirdNews, ThirdNewsBack } from "../componentsStyle/global/newsStyles/newsStyle"
+import { FirstNews, FirstNewsBack, FourNews, FourNewsBack, NewsArticle, NewsArticleFour, NewsArticleSecond, NewsArticleSpan, NewsArticleThird, NewsDivflex, NewsDivflexSecond, NewsDivflexThird, SecondNews, SecondNewsBack, ThirdNews, ThirdNewsBack } from "../componentsStyle/global/newsStyles/newsStyle"
 import { Container } from "../componentsStyle/globalStyles/containers"
 
 const NewsSection = () => {
@@ -27,23 +27,27 @@ const NewsSection = () => {
                                 <p>Hubble - исследует спиральную звездную фабрику</p>
                             </SecondNewsBack>
                         </SecondNews>
-                        <NewsDivflexThird>
-                            <ThirdNews>
-                                <ThirdNewsBack>
-                                    <NewsArticleThird>
-                                        <ZakladaImg />
-                                        <NewsArticleSpan>ARTICLE</NewsArticleSpan>
-                                    </NewsArticleThird>
-                                    <p>NASA считает лето 2024 года самым жарким на сегодняшний день</p>
-                                </ThirdNewsBack>
-                            </ThirdNews>
-                            <div>
-                                <ZakladaImg />
-                                <span>ARTICLE</span>
-                                <p>NASA и SpaceX отправят экипаж-9 в космос</p>
-                            </div>
-                        </NewsDivflexThird>
                     </NewsDivflexSecond>
+                    <NewsDivflexThird>
+                        <ThirdNews>
+                            <ThirdNewsBack>
+                                <NewsArticleThird>
+                                    <ZakladaImg />
+                                    <NewsArticleSpan>ARTICLE</NewsArticleSpan>
+                                </NewsArticleThird>
+                                <p>NASA считает лето 2024 года самым жарким на сегодняшний день</p>
+                            </ThirdNewsBack>
+                        </ThirdNews>
+                        <FourNews>
+                            <FourNewsBack>
+                                <NewsArticleFour>
+                                    <ZakladaImg />
+                                    <NewsArticleSpan>ARTICLE</NewsArticleSpan>
+                                </NewsArticleFour>
+                                <p>NASA и SpaceX отправят экипаж-9 в космос</p>
+                            </FourNewsBack>
+                        </FourNews>
+                    </NewsDivflexThird>
                 </NewsDivflex>
             </Container>
         </>

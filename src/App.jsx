@@ -5,6 +5,7 @@ import GlobalStyle from './components/componentsStyle/globalStyles/globalStyle.j
 import SliderSection from './components/componentBricks/sliderSection';
 import InformationSection from './components/componentBricks/informationSection.jsx'
 import NewsSection from './components/componentBricks/newsSection.jsx';
+import PlanetsSection from './components/componentBricks/Planets/planetsSection.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <SliderSection />
             <NewsSection />
             <InformationSection />
+            <PlanetsSection />
         </>
     )
 }

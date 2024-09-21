@@ -1,29 +1,41 @@
 import styled from "styled-components";
 
 export const DivLine = styled.div `
+    margin-top: 100px;
     width: 300px;
     height: 2px;
     background-color: #6B6B6B;
 `
 
-export const FirstInformation = styled.div `
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+export const FirstInformation = styled.section `
+    margin-top: 200px;
+    background-image: url('/images/image 23.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 880px;
 `
 
 export const FirstInformationDivText = styled.div `
-    width: 50%;
+    height: 880px;
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%);
 `
 
 export const FirstInformationDivTextH2 = styled.h2 `
+    display: flex;
+    align-items: center;
     font-size: 36px;
-    color: #6B6B6B;
+    color: white;
+`
+export const Host = styled.div `
+    padding-right: 30px;
 `
 
 export const FirstInformationDivTextP = styled.p `
-    font-size: 30px;
-    font-weight: 600;
+    padding-top: 130px;
+    line-height: 50px;
+    width: 70%;
+    color: white;
+    font-size: 25px;
 `
 
 export const SecondInformation = styled.div `

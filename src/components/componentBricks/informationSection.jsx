@@ -1,23 +1,25 @@
 import { DivLine, 
     FirstInformationDivText, FirstInformationDivTextP, FirstInformationDivTextH2 , FirstInformation, 
     SecondInformationDivText, SecondInformationDivTextP, SecondInformationDivTextH2, SecondInformation,
-    SectionImg, SectionImgColor, SectionImgH1, SectionImgP
+    SectionImg, SectionImgColor, SectionImgH1, SectionImgP,
+    Host
 } from "../componentsStyle/global/informationStyles/informationStyle"
 import { ContainerImgText, ContainerInformation } from "../componentsStyle/globalStyles/containers"
-import { ImgInformationFirst, ImgInformationSecond } from "../componentsImages/imagesInformation"
+import { ImgInformationSecond } from "../componentsImages/imagesInformation"
+import { Logo } from "../componentsImages/imagesLogo"
 
 const InformationSection = () => {
     return (
         <>
-            <ContainerInformation>
-                <FirstInformation>
-                    <FirstInformationDivText>
-                        <FirstInformationDivTextH2>О нас: <br /> NASA</FirstInformationDivTextH2>
-                        <DivLine></DivLine>
+            <FirstInformation>
+                <FirstInformationDivText>
+                    <ContainerImgText>
+                        <FirstInformationDivTextH2>NASA <Host /> <Logo /></FirstInformationDivTextH2>
                         <FirstInformationDivTextP>NASA (Национальное управление по аэронавтике и исследованию космического пространства) — это ведущая организация США, занимающаяся исследованиями в области аэронавтики и космоса. Основанная в 1958 году, NASA играет ключевую роль в расширении наших знаний о Вселенной и в развитии технологий, которые способствуют научному прогрессу и улучшению жизни на Земле.</FirstInformationDivTextP>
-                    </FirstInformationDivText>
-                    <ImgInformationFirst />
-                </FirstInformation>
+                    </ContainerImgText>
+                </FirstInformationDivText>
+            </FirstInformation>
+            <ContainerInformation>
                 <SecondInformation>
                     <SecondInformationDivText>
                         <SecondInformationDivTextH2>Наша миссия</SecondInformationDivTextH2>
