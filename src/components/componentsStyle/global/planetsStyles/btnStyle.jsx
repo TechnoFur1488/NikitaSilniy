@@ -7,10 +7,9 @@ export const ContainerFlexBtn = styled.div `
 `
 
 export const DivBtnFlex = styled.div `
-    padding-top: 24px;
     width: 90px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 `
 
 export const BtnPlanetsSize = styled.button `

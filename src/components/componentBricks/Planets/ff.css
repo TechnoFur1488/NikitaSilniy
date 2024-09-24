@@ -1,0 +1,9 @@
+.big {
+    opacity: 1;
+    display: block;
+}
+
+.small {
+    opacity: 0;
+    display: none;
+}
